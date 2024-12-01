@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Resistor Calculator 4Band</h1>
+            <p>Pick resistor color bands to calculate resistance!</p>
+        </header>
+
+        <main>
+            <div class="color-selector">
+                <label for="band1">Band 1:</label>
+                <select id="band1">
+                    <option value="0">Black</option>
+                    <option value="1">Brown</option>
+                    <option value="2">Red</option>
+                    <option value="3">Orange</option>
+                    <option value="4">Yellow</option>
+                    <option value="5">Green</option>
+                    <option value="6">Blue</option>
+                    <option value="7">Violet</option>
+                    <option value="8">Gray</option>
+                    <option value="9">White</option>
+                </select>
+            </div>
+
+            <div class="color-selector">
+                <label for="band2">Band 2:</label>
+                <select id="band2">
+                    <option value="0">Black</option>
+                    <option value="1">Brown</option>
+                    <option value="2">Red</option>
+                    <option value="3">Orange</option>
+                    <option value="4">Yellow</option>
+                    <option value="5">Green</option>
+                    <option value="6">Blue</option>
+                    <option value="7">Violet</option>
+                    <option value="8">Gray</option>
+                    <option value="9">White</option>
+                </select>
+            </div>
+
+            <div class="color-selector">
+                <label for="band3">Band 3:</label>
+                <select id="band3">
+                    <option value="0">Black</option>
+                    <option value="1">Brown</option>
+                    <option value="2">Red</option>
+                    <option value="3">Orange</option>
+                    <option value="4">Yellow</option>
+                    <option value="5">Green</option>
+                    <option value="6">Blue</option>
+                    <option value="7">Violet</option>
+                    <option value="8">Gray</option>
+                    <option value="9">White</option>
+                </select>
+            </div>
+
+            <div class="color-selector">
+                <label for="band4">Band 4:</label>
+                <select id="band4">
+                    <option value="10%">Silver</option>
+                    <option value="5%">Gold</option>
+                </select>
+            </div>
+
+            <button id="calculate">Calculate</button>
+
+            <div class="result">
+                <h2>Resistance Value:</h2>
+                <p id="resistance"></p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
